@@ -1,3 +1,8 @@
+This is a sample application demonstrating the use of SLF4J Message Diagnostic Context information for logging contextual information.
+You probably want to use a interceptor or a filter to engage the logging of contextual information in the inbound request and clear
+on the outbound response.  
+
+
 HOW TO RUN
 --------------
 execute: mvn package && java -jar target/mdc*.jar
