@@ -1,0 +1,10 @@
+HOW TO RUN
+--------------
+execute: mvn package && java -jar target/mdc*.jar
+
+go to browser: http://localhost:8080/
+
+on command line see: 
+	client: 'Sonam', [http-nio-8080-exec-1], INFO  org.sonamexample.HelloController - hello MDC
+
+In the example you can see 'Sonam' printed using MDC.   
